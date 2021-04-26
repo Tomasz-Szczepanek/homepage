@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first website!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__headers">Witaj na mojej stronie!</h1>
+        <p>
+            <button class="header__headerButton">Ukryj nagłówek</button>
+        </p>
+        <img class="header__photo" src="https://i.postimg.cc/k5KVJFpF/tomasz.jpg" alt="Tomasz Szczepanek">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__listItem"><a class="navigation__link" href="#o-mnie">O mnie</a></li>
+                <li class="navigation__listItem"><a class="navigation__link" href="#zainteresowania">Zainteresowania</a>
+                </li>
+                <li class="navigation__listItem"><a class="navigation__link" href="#motto-zyciowe">Motto życiowe</a>
+                </li>
+                <li class="navigation__listItem"><a class="navigation__link" href="#umiejetnosci">Umiejętności</a></li>
+                <li class="navigation__listItem"><a class="navigation__link"
+                        href="#doswiadczenie-zawodowe">Doświadczenie zawodowe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main__sectionAboutMe" id="o-mnie">
+            <h2 class="main__headers">O mnie</h2>
+            <p class="main__paragraphs">Nazywam się <b>Tomasz</b> i mam 26 lat. Jestem młodszym testerem z
+                półtorarocznym
+                doświadczeniem w testowaniu aplikacji mobilnych oraz
+                webowych w małej firmie o międzynarodowym zasięgu. Aktualnie prowadzę projekt dla klienta zagranicznego.
+                Szukam
+                pracy w firmie z perspektywą dalszego rozwoju w kierunku Frontendu.
+            </p>
+            <p>
+                Uczestnictwo w kursie <em>YouCode</em> jest dla mnie <strong>bardzo ważne!</strong>
+            </p>
+        </section>
+        <section class="main__sectionInterests" id="zainteresowania">
+            <h2 class="main__headers">Zainteresowania</h2>
+            <p>
+                Od najmłodszych lat interesuje się sportem. Swoje pierwsze kroki stawiałem na kortach tenisowych w wieku
+                7
+                lat.
+                Ten sport pochłonął mnie na kolejne 10 lat, nauczył mnie wytrwałości, dyscypliny, tego by nigdy się nie
+                poddawać, wyciągać lekcje z porażek i cieszyć się nawet małymi sukcesami. W tym samym czasie rozpocząłem
+                również
+                swoją przygodę z narciarstwem i trwa ona aż po dzień dzisiejszy. Dzięki temu sporotwi wiem, że lubię
+                adrenalinę
+                i prędkość.
+            </p>
+            <p>
+                Interesuje się również sportami siłowymi. Od 5 lat regularnie uczęszczam na siłownie. Dzięki uporowi i
+                wytwałości osiągnąłem wymarzone efekty. Poza sportami interesuje się również szeroko pojętym
+                <i>Auto-detailingiem</i> i moim marzeniem jest aby w przyszłości otworzyć swój salon <i>Car-SPA</i> i
+                myjnie
+                samochodową.
+            </p>
+        </section>
+        <section class="main__sectionMotto" id="motto-zyciowe">
+            <h2 class="main__headers">Motto życiowe</h2>
+            <blockquote class="main__motto">"Jeśli potrafisz o czymś marzyć, to potrafisz też tego dotknąć"
+            </blockquote>
+        </section>
+        <section class="main__sectionExperience" id="doswiadczenie-zawodowe">
+            <h2 class="main__headers">Doświadczenie zawodowe</h2>
+            <ol>
+                <li class="main__listElement">
+                    Stanowisko: <b>Junior Software Tester</b> (12.2019 - obecnie)
+                    <ul class="main__unorderedList">
+                        <li class="main__listElement">Wykonywanie testów manualnych aplikacji mobilnych
+                            oraz webowych</li>
+                        <li class="main__listElement">Projektowanie przypadków testowych</li>
+                        <li class="main__listElement">Przeprowadzanie testów funkcjonalnych, wyglądowych,
+                            eksploracyjnych, wydajnościowych</li>
+                        <li class="main__listElement">Planowanie testów</li>
+                        <li class="main__listElement">Praca przy użyciu narzędzi do zarządzania rozwojem
+                            oprogramowania i testów</li>
+                        <li class="main__listElement">Wykonywanie retestów i testów regresywnych</li>
+                        <li class="main__listElement">Prowadzenie projektu z sektora opieki zdrowotnej dla
+                            klienta zagranicznego</li>
+                        <li class="main__listElement">Korespodencja międzynarodowa</li>
+                    </ul>
+                </li>
+                <li class="main__listElement">
+                    Stanowisko: <b> Stażysta Junior Software Tester</b> (10.2019 - 11.2019)
+                    <ul class="main__unorderedList">
+                        <li class="main__listElement">Podstawy testowania</li>
+                        <li class="main__listElement">Testowanie w cyklu życia oprogramowania</li>
+                        <li class="main__listElement">Statyczne techniki testowania</li>
+                        <li class="main__listElement">Techniki projektowania testów</li>
+                        <li class="main__listElement">Zarządzanie testami</li>
+                        <li class="main__listElement">Testowanie wspierane narzędziami</li>
+                        <li class="main__listElement">Zgłaszanie błędów</li>
+                        <li class="main__listElement">Techniki eksploracyjne w wyszukiwaniu błędów</li>
+                        <li class="main__listElement">Omówienie cyklu życia zgłoszeń</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section class="main__sectionSkills" id="umiejetnosci">
+            <h2 class="main__headers">Umiejętności</h2>
+            <div class="container">
+                <button class="main__tableButton">Ukryj tabele</button>
+                <table class="table">
+                    <caption class="table__caption">Kompetencje</caption>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" colspan="2" scope="col">Umiejętności</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Podstawowe komeptencje</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Średniozaawansowane</th>
+                        <th class="table__tableCell table__tableHeader" scope="col">Wysokie kompetencje</th>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" rowspan="6" scope="row">Umiejętności twarde</th>
+                        <td class="table__tableCell">MS Office</td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> x </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">iOS / Android</td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> x </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">Jira</td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> x </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">ShareX</td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> x </td>
+                        <td class="table__tableCell"> - </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">Visual Studio Code</td>
+                        <td class="table__tableCell"> x </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">Autodesk Inventor</td>
+                        <td class="table__tableCell"> x </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" rowspan="2" scope="row">Języki</th>
+                        <td class="table__tableCell">Angielski</td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> x </td>
+                        <td class="table__tableCell"> - </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell">Niemiecki</td>
+                        <td class="table__tableCell"> x </td>
+                        <td class="table__tableCell"> - </td>
+                        <td class="table__tableCell"> - </td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <th class="table__tableCell table__tableHeader" rowspan="4" scope="row">Umiejętności miękkie
+                        </th>
+                        <td class="table__tableCell" colspan="4">Komunikatywność i umiejętność pracy w zespole</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell" colspan="4">Umiejętność pracy pod presją czasu</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell" colspan="4">Logiczne myślenie</td>
+                    </tr>
+                    <tr class="table__tableRow">
+                        <td class="table__tableCell" colspan="4">Łatwność w realizowaniu zadań</td>
+                    </tr>
+
+                </table>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer"><b>Dane kontaktowe:</b> E-mail <a href="mailto:test@test.com">test@test.com</a> || Tel <a
+            href="666-555-333">666-555-333</a>
+    </footer>
+</body>
+
+</html>

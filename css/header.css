@@ -1,0 +1,30 @@
+.header__headers {
+    color: #000000;
+    background-color: darkgrey;
+    border-radius: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.header__headerButton {
+    border-radius: 20px;
+    font-size: 75%;
+}
+
+.header__hiddenHeaders {
+    display: none;
+}
+
+.header__headerButton:hover {
+    background-color: rgba(0, 75, 136, 0.199);
+}
+
+.header__photo {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 6px 4px 23px 9px rgb(97, 97, 97);
+}

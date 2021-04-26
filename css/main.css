@@ -1,0 +1,36 @@
+.main__headers {
+    color: #000000;
+    background-color: darkgrey;
+    border-radius: 20px;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.main__motto {
+    color: crimson;
+    font-style: italic;
+    text-align: center;
+}
+
+.main__listElement {
+    margin: 10px 0;
+}
+
+.main__unorderedList {
+    list-style-type: disc;
+}
+
+.main__tableButton {
+    border-radius: 20px;
+    vertical-align: middle;
+    font-size: 75%;
+}
+
+.main__hiddenTable {
+    display: none;
+}
+
+.main_tableButton:hover {
+    background-color: rgba(0, 75, 136, 0.199);
+}
+
