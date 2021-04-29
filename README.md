@@ -16,3 +16,7 @@ The website was written using the following technologies:
 - CSS
 - BEM convention
 - JavaScript
+
+Below I present interactions with the use of JavaScript
+
+![homepage](gif/homepage.gif)
