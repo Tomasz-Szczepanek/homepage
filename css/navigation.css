@@ -3,6 +3,7 @@
     text-align: center;
     padding-left: 0px;
     display: flex;
+    justify-content: space-between;
 }
 
 .navigation__listItem {
