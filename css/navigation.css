@@ -2,6 +2,7 @@
     list-style-type: none;
     text-align: center;
     padding-left: 0px;
+    display: flex;
 }
 
 .navigation__listItem {
