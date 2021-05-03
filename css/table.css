@@ -4,7 +4,7 @@
     margin-bottom: 10px;
 }
 
-.table__tableRow:hover {
+.table__row:hover {
     background-color: rgba(0, 75, 136, 0.199);
 }
 
